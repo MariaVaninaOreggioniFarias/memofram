@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700);
+body{
+  background-image:url(./Fondo\ para\ MemoFarm.png);
+  font-family: 'Crimson', sans-serif;
+  color: white;
+}
+main{
+  margin: 30px auto;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+.section1{
+  background-color:  rgba(90, 8, 8, 0.836);
+  padding: 0 10px 10px 10px;
+  border-radius: 8px;
+}
+h1{
+  text-align: center;
+  
+}
+button{
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+}
+.section2{
+  background-color: rgba(255,255,255,0.2);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 250px;
+  height: 400px;
+  padding: 0 20px 0;
+}
+
+a{
+  text-decoration: navajowhite;
+}
+img{
+  width: 80%;
+}
+
+@media (max-width: 750px){
+  main{
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid red; */
+    width: 450px;
+  }
+  .section2{
+    width: 90%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+}
+image{
+  width: 100%;
+}
+.btn-reset {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(211, 118, 85);
+}
